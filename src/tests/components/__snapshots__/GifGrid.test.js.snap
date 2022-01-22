@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas al componente <GifGrid /> debe cargar el componente correctamente 1`] = `
+<div
+  className="card-grid"
+>
+  <h3
+    className="card-title animate__animated animate__fadeIn"
+  >
+    Naruto
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </p>
+</div>
+`;

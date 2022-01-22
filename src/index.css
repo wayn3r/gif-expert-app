@@ -1,0 +1,46 @@
+* {
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 60px;
+}
+
+input {
+    font-size: 1.2rem;
+    color: #333;
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 1px solid grey;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.card-grid .card-title {
+    grid-column: 1 / -1;
+    padding: 1rem 0;
+}
+
+.add-category__form {
+    padding: 1rem 0;
+}
